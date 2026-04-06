@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fakultas Teknik Universitas Riau</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <div class="container navbar-container">
+            <div class="logo">
+                <img src="logo.png" alt="Logo FT UNRI" class="logo-img">
+            </div>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li class="dropdown">
+                        <a href="#profil">Profil <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Sejarah</a></li>
+                            <li><a href="#">Struktur Organisasi</a></li>
+                            <li><a href="#">Visi dan Misi</a></li>
+                            <li><a href="#">Tujuan</a></li>
+                            <li><a href="#">Pimpinan</a></li>
+                            <li><a href="#">Akreditasi</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#akademik">Akademik <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Kalender Akademik</a></li>
+                            <li><a href="#">Peraturan Terkait</a></li>
+                            <li><a href="#">Jurusan Teknik Mesin</a></li>
+                            <li><a href="#">Jurusan Teknik Elektro</a></li>
+                            <li><a href="#">Jurusan Arsitektur</a></li>
+                            <li><a href="#">Jurusan Teknik Sipil</a></li>
+                            <li><a href="#">Jurusan Teknik Kimia</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#ppid">PPID</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+            
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section id="beranda" class="hero">
+            <div class="hero-content">
+                <h2>Selamat Datang di</h2>
+                <h1>FAKULTAS TEKNIK</h1>
+                <h3>UNIVERSITAS RIAU</h3>
+                <p>Menghasilkan lulusan yang kompeten, inovatif, dan berkarakter.</p>
+                <a href="#akademik" class="btn">Lihat Jurusan</a>
+            </div>
+        </section>
+
+        <!-- Info Section -->
+        <section class="info-section container">
+            <h2 class="section-title">Informasi & Layanan</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-users"></i></div>
+                    <h3>SDM</h3>
+                    <p>Informasi mengenai Sumber Daya Manusia di Fakultas Teknik.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-file-alt"></i></div>
+                    <h3>PPID</h3>
+                    <p>Profil Singkat, Gambaran Umum, Struktur Organisasi, dan Layanan Informasi Publik.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-hard-hat"></i></div>
+                    <h3>K3L</h3>
+                    <p>Keselamatan, Kesehatan Kerja, dan Lingkungan.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-university"></i></div>
+                    <h3>Jurusan</h3>
+                    <p>Akses cepat ke halaman jurusan: Mesin, Elektro, Sipil, Arsitektur, Kimia.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="kontak">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <h3>Fakultas Teknik Universitas Riau</h3>
+                <p>Alamat: Fakultas Teknik, Kampus Binawidya, Jl. HR Soebrantas KM. 12.5, Simpang Baru, Tampan.</p>
+                <p>Email: helpdesk.unri.ac.id | Telp: (0761) 63266</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-right">
+                <h4>Link Terkait</h4>
+                <ul>
+                    <li><a href="#">UNRI</a></li>
+                    <li><a href="#">Perpustakaan</a></li>
+                    <li><a href="#">LPPM</a></li>
+                    <li><a href="#">Layanan Online</a></li>
+                    <li><a href="#">Satu Unri</a></li>
+                    <li><a href="#">E-Jurnal</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Fakultas Teknik Universitas Riau. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
